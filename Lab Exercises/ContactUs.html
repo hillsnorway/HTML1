@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact Us</title>
+    <style>
+        div {
+            font-family: verdana;
+            font-size: 10px;
+        }
+        table, tr, td {
+            vertical-align: top;
+            text-align: right;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="content">
+
+        <form action="fakePage.html" method="POST">
+            <table>
+                <tr>
+                    <td>First Name:</td>
+                    <td><input type="text" name="fname" style="width:175px"></td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td >Last Name:</td>
+                    <td>
+                        <input type="text" name="lname" style="width:175px">
+                    </td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td >Type of license:</td>
+                    <td style="text-align:left">
+                        <input type="radio" name="license" value="Business" checked/>Business 
+                        <input type="radio" name="license" value="Personal"/>Personal 
+                    </td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td>Reason:</td>
+                    <td>
+                        <select name="reason" style="width:180px">
+                            <option>Select a Reason</option>
+                            <option>Software Support</option>
+                            <option>Hardware Support</option>
+                            <option>Information Request</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td>Additional Information:</td>
+                    <td>
+                        <textarea name="info" rows="5" style="width:175px"></textarea>
+                    </td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" name="terms" />I have read the terms of service.    
+                    </td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Send Request">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
